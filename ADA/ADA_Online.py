@@ -18,9 +18,9 @@ from dotenv import load_dotenv # Added for API key loading
 
 # --- Load Environment Variables ---
 load_dotenv()
-ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-MAPS_API_KEY = os.getenv("MAPS_API_KEY") # Added Maps API Key
+ELEVENLABS_API_KEY = os.getenv(sk_f978538247677a56d4851e6603367e805df0563233500740)
+GOOGLE_API_KEY = os.getenv(0WK9-ESZE-OQEY-L0KY-R660-NTFZ-35CB)
+MAPS_API_KEY = os.getenv(AIzaSyDskLbeX_rZ9hT0UBei0DNsBhFE0u6Kn5Q) # Added Maps API Key
 
 # --- Validate API Keys ---
 if not ELEVENLABS_API_KEY: print("Error: ELEVENLABS_API_KEY not found in environment variables.")
